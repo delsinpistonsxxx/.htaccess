@@ -11,12 +11,12 @@ DirectoryIndex index.php index.html index.htm
 RewriteEngine on
 
 #WWW REWRITE
-RewriteCond %{HTTP_HOST} ^example\.com$ [NC]
-RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^ohiopuppride.dog$ [NC]
+RewriteRule ^(.*)$ http://www.ohiopuppride.dog/$1 [L,R=301]
 
 #REDIRECT OLD PAGE
-RewriteCond %{HTTP_HOST} ^www.example.com$
-RewriteRule ^old-page.html$ http://www.example.com/new-page [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.ohiopuppride.dog$
+RewriteRule ^old-page.html$ http://www.ohiopuppride.dog/new-page [R=301,L]
 
 #ERROR 404 PAGE
 ErrorDocument 404 /404.html
