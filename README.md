@@ -1,2 +1,3 @@
 # .htaccess
-Web .htacess example file
+Web .htacess for 
+ohiopuppride.dog
